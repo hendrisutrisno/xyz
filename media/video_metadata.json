@@ -1,0 +1,12 @@
+{
+  "file": "physical_demonstration.mp4",
+  "bytes": 5489791,
+  "sha256": "95e7acaa49a640ce07a3242af4e6d3045267c7fbef434c45e737731c76c78895",
+  "width": 1280,
+  "height": 720,
+  "frames_per_second": 24,
+  "duration_seconds": 203.67,
+  "codec": "H.264",
+  "audio": false,
+  "physical_validation_scope": "Qualitative handling demonstration; no measured execution-time comparison."
+}

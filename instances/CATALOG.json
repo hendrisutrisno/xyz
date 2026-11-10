@@ -1,0 +1,1017 @@
+{
+  "schema": "height_distribution_maps.v1",
+  "total_maps": 40,
+  "maps_per_N": 8,
+  "N_options": [
+    10,
+    20,
+    40,
+    60,
+    80
+  ],
+  "seed": 20261106,
+  "height_options_cm": [
+    4.0,
+    4.2,
+    4.4,
+    4.6,
+    4.8,
+    5.0,
+    5.2,
+    5.4,
+    5.6,
+    5.8,
+    6.0,
+    6.2,
+    6.4,
+    6.6,
+    6.8,
+    7.0,
+    7.2,
+    7.4,
+    7.6,
+    7.8,
+    8.0,
+    8.2,
+    8.4,
+    8.6,
+    8.8,
+    9.0,
+    9.2,
+    9.4,
+    9.6,
+    9.8,
+    10.0
+  ],
+  "profiles": [
+    "uniform",
+    "normal",
+    "exponential_0p5",
+    "reverse_exponential_0p5"
+  ],
+  "normal_mean_cm": 7,
+  "normal_sd_cm": 1.5,
+  "exponential_rate_per_cm": 0.5,
+  "maps": [
+    {
+      "name": "N10_1",
+      "file": "N10_1.txt",
+      "N": 10,
+      "height_profile": "uniform",
+      "layout": 1,
+      "sha256": "a4b7932230af3717931073c8db9a3ea22d6625bebca8aa9059c92b31658641f5",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.20234380343734434,
+          "y": 0.07922726866877342
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1717255478964826,
+          "y": -0.12546527317418604
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_3",
+      "file": "N10_3.txt",
+      "N": 10,
+      "height_profile": "normal",
+      "layout": 1,
+      "sha256": "4bf5aea46c35f2d6eb9f5555447772c5e228742616a7c4ee5723cf7a9d34817d",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.35025541563656903,
+          "y": -0.40314668133108306
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1717255478964826,
+          "y": -0.12546527317418604
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_5",
+      "file": "N10_5.txt",
+      "N": 10,
+      "height_profile": "exponential_0p5",
+      "layout": 1,
+      "sha256": "9428957c14896559b2964552697894af4f1bf29e1136c698387a153022e31a88",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.16513714868844942,
+          "y": 0.39381402308770586
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1717255478964826,
+          "y": -0.12546527317418604
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_7",
+      "file": "N10_7.txt",
+      "N": 10,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 1,
+      "sha256": "3383b0ecedcb97efcbf05ab02ae695f2973c4c2fb130df90ed96b048fb48972d",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.41967485961941664,
+          "y": -0.005060378129357175
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1717255478964826,
+          "y": -0.12546527317418604
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_2",
+      "file": "N10_2.txt",
+      "N": 10,
+      "height_profile": "uniform",
+      "layout": 2,
+      "sha256": "e6aed90f2963ca18187ad77f896bcafb10d3324f2c8631334c4a26201fc69520",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.29168822271838263,
+          "y": 0.08139503005155464
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.06592876942603702,
+          "y": -0.12498651400509292
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_4",
+      "file": "N10_4.txt",
+      "N": 10,
+      "height_profile": "normal",
+      "layout": 2,
+      "sha256": "ca56627f4963265f14db85c33a944f1987ac72ab8b7922f06c5e444ff0f44b31",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.034525438201482336,
+          "y": 0.2744865598417893
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.06592876942603702,
+          "y": -0.12498651400509292
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_6",
+      "file": "N10_6.txt",
+      "N": 10,
+      "height_profile": "exponential_0p5",
+      "layout": 2,
+      "sha256": "61e130a3a5afa14d8a724fb374c10db450e406784c01f07d97fd1f99b3d311a9",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.10817188606051248,
+          "y": -0.33098667690164424
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.06592876942603702,
+          "y": -0.12498651400509292
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N10_8",
+      "file": "N10_8.txt",
+      "N": 10,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 2,
+      "sha256": "46dfbeba2cb2f786fdec1fc6f464c03befd4ad8aa07ed8e938994a3f204eea3f",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.44152543992842136,
+          "y": 0.3471562077108201
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.06592876942603702,
+          "y": -0.12498651400509292
+        },
+        "max_abs_correlation": 0.5,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_1",
+      "file": "N20_1.txt",
+      "N": 20,
+      "height_profile": "uniform",
+      "layout": 1,
+      "sha256": "51f4c758a4ddb6a6967e2875b5c1825593b656207335253654b52ddee17f64c9",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.24555764675333366,
+          "y": 0.006502958501825739
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.05242648014641925,
+          "y": 0.19871983702277685
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_3",
+      "file": "N20_3.txt",
+      "N": 20,
+      "height_profile": "normal",
+      "layout": 1,
+      "sha256": "778365563e8a507853558549d46b0ad6cf910a5c78c88e856c0fbe2bd2346e05",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.014739060657509621,
+          "y": -0.18387700833022413
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.05242648014641925,
+          "y": 0.19871983702277685
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_5",
+      "file": "N20_5.txt",
+      "N": 20,
+      "height_profile": "exponential_0p5",
+      "layout": 1,
+      "sha256": "a1304142ad1b227b58a6c78cbf9bf490f768c668ca1be4a1601110e53dd3a2f5",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.24683916236957767,
+          "y": -0.043850001202956755
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 4
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.05242648014641925,
+          "y": 0.19871983702277685
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_7",
+      "file": "N20_7.txt",
+      "N": 20,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 1,
+      "sha256": "6f06f4696717e401261926f4b1c7a0fe66a2f708846ee90da68144f4cd264ef0",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.21216427878873617,
+          "y": 0.018021696320865185
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.05242648014641925,
+          "y": 0.19871983702277685
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_2",
+      "file": "N20_2.txt",
+      "N": 20,
+      "height_profile": "uniform",
+      "layout": 2,
+      "sha256": "1abeed451d2708de49a16f0bfb16af3afa420cf26fbf6e03ccf6d49c3602ca29",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.1730299387182442,
+          "y": 0.04231030954218522
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.046619234358457676,
+          "y": 0.1618341163030978
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_4",
+      "file": "N20_4.txt",
+      "N": 20,
+      "height_profile": "normal",
+      "layout": 2,
+      "sha256": "9a6ee1e601c14dde30bd9be29b3f09a4959ab04c8dea387d569b692038443cc6",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.1890529375710902,
+          "y": 0.11327164620624894
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.046619234358457676,
+          "y": 0.1618341163030978
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_6",
+      "file": "N20_6.txt",
+      "N": 20,
+      "height_profile": "exponential_0p5",
+      "layout": 2,
+      "sha256": "33cbaf63e5e7c95d56d19043f76c518bf6909573b3a98add174f70c6fa93a426",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.16898166000580286,
+          "y": 0.1833304354894106
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.046619234358457676,
+          "y": 0.1618341163030978
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N20_8",
+      "file": "N20_8.txt",
+      "N": 20,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 2,
+      "sha256": "3d294fc164ad9497227f46eadcf16223bdb4ec2e76ba0f1dfb5c25fc151b274d",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.24592160210360728,
+          "y": 0.1696581797889832
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.046619234358457676,
+          "y": 0.1618341163030978
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N40_1",
+      "file": "N40_1.txt",
+      "N": 40,
+      "height_profile": "uniform",
+      "layout": 1,
+      "sha256": "0d25c9f6d01d9a28f91061d0809ee8320399abc5de31d1c54b49732f8d1a35af",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.056843744415123035,
+          "y": -0.0024158379699938184
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.07758577757924567,
+          "y": 0.03881461401546237
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N40_3",
+      "file": "N40_3.txt",
+      "N": 40,
+      "height_profile": "normal",
+      "layout": 1,
+      "sha256": "81b8e08c9ba8da35f48cc7b264bfb4640ff0da0be01c46ffc8b3faff54cbd009",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.11371332145364743,
+          "y": -0.15237002927325877
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.07758577757924567,
+          "y": 0.03881461401546237
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N40_5",
+      "file": "N40_5.txt",
+      "N": 40,
+      "height_profile": "exponential_0p5",
+      "layout": 1,
+      "sha256": "8c7ad1112597e42d232a56fb39ecca5c39a17264e59d1b4db81f2b37d7242cd3",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.07560240725148033,
+          "y": -0.2202762500228141
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.07758577757924567,
+          "y": 0.03881461401546237
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N40_7",
+      "file": "N40_7.txt",
+      "N": 40,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 1,
+      "sha256": "e8c5fce4276223bfcc01bcff746e7fa9eb3cfc2ab2b8edbc4520d84e99d3f75c",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.14154904839634125,
+          "y": -0.016498013741353984
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.07758577757924567,
+          "y": 0.03881461401546237
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N40_2",
+      "file": "N40_2.txt",
+      "N": 40,
+      "height_profile": "uniform",
+      "layout": 2,
+      "sha256": "3532a54cb516cd8931155a780848b5678a992dd1bc2b7a21d1f9360a2a4c4406",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.09469984822230841,
+          "y": -0.23783221612435107
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1984946370681172,
+          "y": -0.013437668884062684
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N40_4",
+      "file": "N40_4.txt",
+      "N": 40,
+      "height_profile": "normal",
+      "layout": 2,
+      "sha256": "a86235934bd906090fc79e0b191f817a906ef3bfed3284dd07c0c14c698e22fa",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.005809665670673093,
+          "y": 0.11261552320704574
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1984946370681172,
+          "y": -0.013437668884062684
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N40_6",
+      "file": "N40_6.txt",
+      "N": 40,
+      "height_profile": "exponential_0p5",
+      "layout": 2,
+      "sha256": "d354744d69165d882761bcf1be7c2f68ec3fcd9ece89f9341d651d3a99b39a85",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.14564802268188812,
+          "y": -0.026698168850334738
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1984946370681172,
+          "y": -0.013437668884062684
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N40_8",
+      "file": "N40_8.txt",
+      "N": 40,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 2,
+      "sha256": "c80e42e212fcc52836142dad6d25332219e4b7f2f52fea9fcc1a0afcc3b9d20a",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.23485829917912635,
+          "y": 0.15861565589784885
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.1984946370681172,
+          "y": -0.013437668884062684
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N60_1",
+      "file": "N60_1.txt",
+      "N": 60,
+      "height_profile": "uniform",
+      "layout": 1,
+      "sha256": "29ec1dd6fc8d96481db39d03aa5fc1c7898999121570901c7e8efb875b8d4c59",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.13877773708943184,
+          "y": -0.06213931372864033
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.043965797612667064,
+          "y": -0.024525452814464728
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_3",
+      "file": "N60_3.txt",
+      "N": 60,
+      "height_profile": "normal",
+      "layout": 1,
+      "sha256": "aeb395867144d9d545af3e5aeafbc2db4ffd13cf56cb80adb8091528861271fa",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.009447472557222067,
+          "y": 0.028724667088805052
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.043965797612667064,
+          "y": -0.024525452814464728
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_5",
+      "file": "N60_5.txt",
+      "N": 60,
+      "height_profile": "exponential_0p5",
+      "layout": 1,
+      "sha256": "65bd95f08dc07acf3992c832a168be6200f44b99bfbf017c72787bccf0ba9999",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.0750132375951595,
+          "y": -0.0054758938618941246
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.043965797612667064,
+          "y": -0.024525452814464728
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_7",
+      "file": "N60_7.txt",
+      "N": 60,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 1,
+      "sha256": "d10de368a84f7a09ac1a03ac66dfb8ffe58c864f020b5f7a5a740892c9481bdd",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.06061849554105669,
+          "y": -0.18918396737553814
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.043965797612667064,
+          "y": -0.024525452814464728
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_2",
+      "file": "N60_2.txt",
+      "N": 60,
+      "height_profile": "uniform",
+      "layout": 2,
+      "sha256": "accc5aa3f5b1908d851d04192f7f8123e19668556507524fac74e81e4200c2af",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.11206232159736745,
+          "y": 0.16173502186325053
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.11049008035375145,
+          "y": 0.043483064932596814
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_4",
+      "file": "N60_4.txt",
+      "N": 60,
+      "height_profile": "normal",
+      "layout": 2,
+      "sha256": "54b20957956388b386be31b893e53c32c984c6b8be33471cba0ab7492f4e8219",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.025156448921644713,
+          "y": -0.05617095948859625
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.11049008035375145,
+          "y": 0.043483064932596814
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_6",
+      "file": "N60_6.txt",
+      "N": 60,
+      "height_profile": "exponential_0p5",
+      "layout": 2,
+      "sha256": "6475e592f14e71893be80589088206e0657fba34dc98d795f170a9f6c8b5c1a2",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.1101015200455558,
+          "y": 0.11878700950513923
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.11049008035375145,
+          "y": 0.043483064932596814
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N60_8",
+      "file": "N60_8.txt",
+      "N": 60,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 2,
+      "sha256": "2eaa5e64ad1527ad0cf9adb8809e47bac1e8afab9b022b66a750812cf68caf3b",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.1467661638948898,
+          "y": 0.06254512747443174
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.11049008035375145,
+          "y": 0.043483064932596814
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N80_1",
+      "file": "N80_1.txt",
+      "N": 80,
+      "height_profile": "uniform",
+      "layout": 1,
+      "sha256": "7bab0611e26e24f5925c01d85693beb9d73e17d24c0a5852802542b0bd9c55c6",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.0635285663595724,
+          "y": -0.2005438779434502
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.0035301667507725352,
+          "y": 0.026682780927418246
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N80_3",
+      "file": "N80_3.txt",
+      "N": 80,
+      "height_profile": "normal",
+      "layout": 1,
+      "sha256": "4416aa2b633a7cb39cc9911e4afa0be37fe2aa56fe502d129e9ca00489247bc4",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.08053340993504501,
+          "y": -0.1215034364642092
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.0035301667507725352,
+          "y": 0.026682780927418246
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N80_5",
+      "file": "N80_5.txt",
+      "N": 80,
+      "height_profile": "exponential_0p5",
+      "layout": 1,
+      "sha256": "3bceb0b67e385acf7f14b717cc9f4e9a4bcc268dfef1bcf745d84083ad07ca86",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.047135653755494035,
+          "y": -0.17983776901236928
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.0035301667507725352,
+          "y": 0.026682780927418246
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N80_7",
+      "file": "N80_7.txt",
+      "N": 80,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 1,
+      "sha256": "77ce148a076908f2a8cf6574b864b057e674e10f90056e2d35f8252f5b992ef3",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.04593310106178978,
+          "y": 0.11380344144367412
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": 0.0035301667507725352,
+          "y": 0.026682780927418246
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 2
+      }
+    },
+    {
+      "name": "N80_2",
+      "file": "N80_2.txt",
+      "N": 80,
+      "height_profile": "uniform",
+      "layout": 2,
+      "sha256": "47beb20f8fd7de39557276a97cde9b6f80da0b1f4391bdf40e2b995626da4c22",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.2143949378366071,
+          "y": 0.037339648095526805
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.2265492628565756,
+          "y": -0.04209682486579277
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N80_4",
+      "file": "N80_4.txt",
+      "N": 80,
+      "height_profile": "normal",
+      "layout": 2,
+      "sha256": "40f51c5f02d04fdb09a0fc496b3c3c76919899627efe9defa38476c91ee2d151",
+      "height_assignment": {
+        "correlations": {
+          "x": -0.06589183258305678,
+          "y": -0.01031329163223511
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.2265492628565756,
+          "y": -0.04209682486579277
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N80_6",
+      "file": "N80_6.txt",
+      "N": 80,
+      "height_profile": "exponential_0p5",
+      "layout": 2,
+      "sha256": "73da5b49f2996e456f38720c065e65a0192a2e12234dd8ad6316b86c282de5c5",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.06561404261554488,
+          "y": 0.13592311596868065
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.2265492628565756,
+          "y": -0.04209682486579277
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    },
+    {
+      "name": "N80_8",
+      "file": "N80_8.txt",
+      "N": 80,
+      "height_profile": "reverse_exponential_0p5",
+      "layout": 2,
+      "sha256": "b529c6428b53564d62fe136e9f11ceaa99b0b4cbd5b2cf4510c7616df6138557",
+      "height_assignment": {
+        "correlations": {
+          "x": 0.019713143377507604,
+          "y": 0.02130534749334725
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      },
+      "destination_assignment": {
+        "correlations": {
+          "x": -0.2265492628565756,
+          "y": -0.04209682486579277
+        },
+        "max_abs_correlation": 0.25,
+        "assignment_attempts": 1
+      }
+    }
+  ]
+}

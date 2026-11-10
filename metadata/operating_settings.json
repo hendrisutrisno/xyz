@@ -1,0 +1,70 @@
+{
+  "schema": "cmorp_operating_inputs.v1",
+  "baseline": {
+    "height_capacity_cm": 15,
+    "complete_load_cycle_limit_s": 90,
+    "height_increment_cm": 0.2,
+    "planar_speed_m_s": 0.15,
+    "vertical_speed_m_s": 0.1,
+    "travel_height_m": 0.45,
+    "clearance_margin_m": 0.1,
+    "pickup_overhead_s": 2,
+    "consolidation_overhead_s": 4,
+    "delivery_overhead_s": 1,
+    "height_slowdown_per_m": 1.5,
+    "base_velocity_deg_s": 60,
+    "base_acceleration_deg_s2": 120,
+    "base_coordinate_limits_rad": [
+      -3.05433,
+      3.05433
+    ],
+    "additional_consolidation_angular_cutoff": null,
+    "initial_nominal_tool_position_m": [
+      0.2,
+      0,
+      0.45
+    ],
+    "receiver_positions_m": {
+      "A": [
+        0,
+        -0.45,
+        0
+      ],
+      "B": [
+        0,
+        0.45,
+        0
+      ]
+    },
+    "object_footprint_cm": [
+      5,
+      5
+    ],
+    "collection_precedence": []
+  },
+  "sensitivity": {
+    "height_capacity_cm": [
+      10,
+      13,
+      15,
+      18,
+      20
+    ],
+    "complete_load_cycle_limit_s": [
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "consolidation_overhead_s": [
+      2,
+      4,
+      6,
+      8,
+      12
+    ],
+    "design": "One factor changes at a time; all other inputs remain at baseline."
+  },
+  "scope": "Analytical transition-time assumptions; not hardware-calibrated measurements. Full robot motion, grasp stability and payload feasibility are not certified by these inputs."
+}
