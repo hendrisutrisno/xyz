@@ -30,3 +30,7 @@ object_id x_m y_m z_center_m height_cm destination_id
 XYZ coordinates use meters; individual height uses centimeters. Preserve leading zeros in object IDs. Objects rest on z=0 and z_center_m=height_cm/200. Receiving stations are A=(0,-0.45,0) m and B=(0,0.45,0) m. The receiving surface and pickup surface share the same elevation. Repeated deliveries require automatic station clearing. A 0.2 cm height quantum represents every object height exactly.
 
 CATALOG.json records file checksums and assignments; COLLECTION_VALIDATION.json records geometry, histogram and spatial mixing checks. These 40 maps are the complete dataset collection. No robot reachability, collision, payload or stability certificate is implied by the dataset.
+
+## Licence
+
+CC BY 4.0 applies to the material in this directory. See the [full licence](../LICENSE) and [anonymous attribution instructions](../README.md#licence-and-attribution).

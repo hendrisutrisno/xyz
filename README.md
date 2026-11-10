@@ -41,4 +41,16 @@ The computational instances assume aligned, compatible objects, additive heights
 
 ## Integrity and reuse
 
-The original text instances are byte-for-byte copies of the experimental inputs. `instances/CATALOG.json` records their SHA-256 hashes, and `SHA256SUMS.txt` covers all distributed files. No reuse licence has yet been assigned.
+The original text instances are byte-for-byte copies of the experimental inputs. `instances/CATALOG.json` records their SHA-256 hashes, and `SHA256SUMS.txt` covers all distributed files.
+
+## Licence and attribution
+
+The dataset, metadata, documentation and physical demonstration video in this repository are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full licence is provided in [LICENSE](LICENSE).
+
+You may share and adapt the material, including for commercial purposes, under the licence terms. Give appropriate credit, link to the licence and indicate any changes. The material is provided without warranties as described in the licence.
+
+During double-blind review, the designated attribution is **Anonymous authors**. Suggested attribution:
+
+> Anonymous authors (2026). Robotic multi-object collection benchmark: dataset, documentation and physical demonstration video. CC BY 4.0. https://anonymous.4open.science/r/cmorp-dataset-2641/
+
+Author names and publication details can be added after review.
